@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#financial-health, #credit-options, #notifications, #expense-tracking, #financial-literacy {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#optionsList, #notificationsList, #expenseList, #resourcesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#optionsList li, #notificationsList li, #expenseList li, #resourcesList li {
+    padding: 5px 0;
+}

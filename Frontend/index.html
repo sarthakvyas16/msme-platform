@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MSME Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome, [User's Name]</h1>
+        </header>
+        <main>
+            <section id="financial-health">
+                <h2>Financial Health Overview</h2>
+                <canvas id="healthChart"></canvas>
+                <p>Your Credit Score: <span id="creditScore">700</span></p>
+            </section>
+            <section id="credit-options">
+                <h2>Recommended Credit Options</h2>
+                <ul id="optionsList"></ul>
+            </section>
+            <section id="notifications">
+                <h2>Notifications</h2>
+                <ul id="notificationsList"></ul>
+            </section>
+            <section id="expense-tracking">
+                <h2>Track Your Expenses</h2>
+                <form id="expenseForm">
+                    <input type="text" id="expenseName" placeholder="Expense Name" required>
+                    <input type="number" id="expenseAmount" placeholder="Amount" required>
+                    <button type="submit">Add Expense</button>
+                </form>
+                <ul id="expenseList"></ul>
+            </section>
+            <section id="financial-literacy">
+                <h2>Financial Literacy Resources</h2>
+                <ul id="resourcesList"></ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 MSME Platform</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
